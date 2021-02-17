@@ -3,6 +3,7 @@ Author: Harsh Krishana
 Date: 2/16/21
 File name: styles.css
 */
+
 /* CSS reset */
 body, header, nav, main, footer, h1, div, img, ul {
     margin: 0;
@@ -136,7 +137,7 @@ main {
 .map {
     border: 2px solid #000;
     width: 95%;
-    height: 50;
+    height: 50%;
 }
 /* Style rules for footer */
 footer p {
