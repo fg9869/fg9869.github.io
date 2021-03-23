@@ -41,7 +41,7 @@ header {
 header img {
     margin: 0 auto;
 }
-/* Style rule for nav area */
+/* Style rule for navigation area */
 nav {
     padding: 1%;
     margin-bottom: 1%;
@@ -86,6 +86,10 @@ main {
     padding: 2%;
     font-size: 1.25em;
     font-family: 'Roboto Slab', serif;
+}
+
+video {
+    margin: 0 auto 4%;
 }
 
 .mobile h3 {
@@ -231,7 +235,6 @@ footer p a {
     text-decoration: none;
 }
 
-
 /* Media query for tablet viewport */
 @media screen and (min-width: 630px), print {
     /* Tablet viewport: show tablet desktop class, hide mobile class */
@@ -356,6 +359,8 @@ form {
         float: left;
         padding-bottom: 0;
     }
+
+
     /* Desktop viewport: style rules for nav area */
     nav {
         float: right;
@@ -378,7 +383,6 @@ form {
         color: #000;
         background-color: #fff;
     }
-
     /* Desktop viewport: style rules for main content */
     main {
         clear: left;
